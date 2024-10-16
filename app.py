@@ -1,5 +1,4 @@
 import streamlit as st
-import fitz  # PyMuPDF for PDF handling
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
