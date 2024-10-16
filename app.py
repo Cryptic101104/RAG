@@ -198,7 +198,7 @@ with st.sidebar:
             st.write(f"**A:** {q['answer']}")
 
 # Upload PDF
-uploaded_file = st.file_uploader("Upload a PDF file", type="pdf")
+uploaded_file = st.file_uploader("Upload a PDF file", type="pdf", key="pdf_uploader")
 
 if uploaded_file:
     with st.spinner('Processing your document...'):
